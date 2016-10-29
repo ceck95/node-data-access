@@ -1,0 +1,25 @@
+{
+  "name": "node-data-access",
+  "version": "0.1.0",
+  "description": "Node data access",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Toan Nguyen",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.4.1",
+    "bunyan": "^1.8.0",
+    "bunyan-format": "^0.2.1",
+    "config": "^1.20.1",
+    "hoek": "^4.0.0",
+    "jshint": "^2.9.1",
+    "mongodb": "^2.1.19",
+    "pg": "^4.5.3",
+    "thrift": "^0.9.3",
+    "node-helpers": "git+ssh://git@github.com:nhutuit/node-helpers.git",
+    "node-mongo": "git+ssh://git@github.com:nhutuit/node-mongo.git",
+    "node-pg": "git+ssh://git@github.com:nhutuit/node-pg.git"
+  }
+}
